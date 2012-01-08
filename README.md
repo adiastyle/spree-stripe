@@ -20,8 +20,11 @@ And reboot your server:
 	rails s
 
 Go to admin interface
+
 Go to Payment Methods
+
 Select "New Payment Method"
+
 Put Stripe Test Secret key in Login for testing, put Live Secret key in Login for production
 
 Demo Site
