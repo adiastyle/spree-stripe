@@ -2,14 +2,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_stripe'
-  s.version     = '0.70.1'
-  s.summary     = 'Add gem summary here'
-  s.description = 'Add (optional) gem description here'
+  s.version     = '0.10.1'
+  s.summary     = 'spree_stripe add stripe payment method to spree commerce'
+  s.description = 'spree_stripe add stripe payment method to spree commerce. It is designed to be used on our ecommerce http://www.adiastyle.com.'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author            = 'David Heinemeier Hansson'
-  # s.email             = 'david@loudthinking.com'
-  # s.homepage          = 'http://www.rubyonrails.org'
+  s.author            = 'Adiastyle'
+  s.email             = 'admin@adiastyle.com'
+  s.homepage          = 'http://www.adiastyle.com'
   # s.rubyforge_project = 'actionmailer'
 
   #s.files         = `git ls-files`.split("\n")

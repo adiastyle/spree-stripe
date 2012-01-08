@@ -1,20 +1,32 @@
 SpreeStripe
 ===========
 
-Introduction goes here.
+spree_stripe add stripe payment method to spree commerce. It is designed to be used on our ecommerce http://www.adiastyle.com . For more detail about stripe payment gateway, go to www.stripe.com.
 
 
-Example
+Install
 =======
 
-Example goes here.
+Install spree_redirects by adding the following to your existing spree site's Gemfile:
 
-Testing
--------
+gem 'spree_stripe', :git=>"git://github.com/adiastyle/spree-stripe.git"
 
-Be sure to add the rspec-rails gem to your Gemfile and then create a dummy test app for the specs to run against.
+Then run:
 
-    $ bundle exec rake test app
-    $ bundle exec rspec spec
+bundle install
 
-Copyright (c) 2011 [name of extension creator], released under the New BSD License
+And reboot your server:
+
+rails s
+
+Go to admin interface
+Go to Payment Methods
+Select "New Payment Method"
+Put Stripe Test Secret key in Login for testing, put Live Secret key in Login for production
+
+Demo Site
+=========
+
+http://www.adiastyle.com
+
+Copyright (c) 2011 Adiastyle.com, released under the New BSD License
