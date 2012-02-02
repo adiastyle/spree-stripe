@@ -20,7 +20,7 @@ module SpreeStripe
     end
     initializer "spree_stripe.register.payment_methods" do |app|
       app.config.spree.payment_methods += [
-        Gateway::Stripe
+        Spree::Gateway::Stripe
       ]
     end
     config.to_prepare &method(:activate).to_proc
