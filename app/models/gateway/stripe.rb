@@ -1,4 +1,4 @@
-class Gateway::Stripe < Gateway
+class Gateway::Stripe < Spree::Gateway
 	preference :login, :string
 
   def provider_class
