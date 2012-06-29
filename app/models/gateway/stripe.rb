@@ -1,4 +1,4 @@
-class Gateway::Stripe < Gateway
+class Gateway::Stripe < Spree::Gateway
 	preference :login, :string
 	attr_accessible :preferred_login, :preferred_password
 
